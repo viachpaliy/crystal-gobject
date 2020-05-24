@@ -20,6 +20,15 @@ Install like any other shard. Additionally you'll need gobject-introspection ins
 as well as the GObject based library you want to use and its typelib file needs to be
 available.
 
+### Ubuntu 20.04
+
+You need install **libevent-2.1-6** pkg :  
+```sh
+   sudo add-apt-repository "deb http://mirrors.kernel.org/ubuntu/ eoan main"
+   sudo apt-get update
+   sudo apt-get install libevent-2.1-6
+```
+
 ### Debian
 
 ```
